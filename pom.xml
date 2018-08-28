@@ -46,12 +46,16 @@
                   <artifactId>spring-boot-starter-test</artifactId>
                   <scope>test</scope>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
 			<dependency>
 			    <groupId>com.amazonaws</groupId>
 			    <artifactId>aws-java-sdk-s3</artifactId>
 			    <version>1.11.396</version>
 			</dependency>
+			<dependency>
+	          <groupId>com.brightcove.zencoder.api</groupId>
+	          <artifactId>zencoder-java</artifactId>
+	          <version>2.0.20</version>
+    		</dependency>
             
 	</dependencies>
 
