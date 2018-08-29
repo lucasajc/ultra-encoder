@@ -3,13 +3,15 @@
 <head>
     <title>Ultra-Encoder</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{https://fonts.googleapis.com/css?family=Bangers}" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/main.css" th:href="@{/css/main.css}"/>
+   
 </head>
 <body>
     <h1>Ultra Encoder</h1>
     <div class="container_form">
 	    <form method="POST" enctype="multipart/form-data" action="/submit">
-					<p class="convert_text">File to convert</p><input class="file_upload_field" type="file" name="file" />
+					<p class="convert_text">File to convert</p><input class="file_upload_field" type="file" name="file" file accept=".avi,.flv,.wmv,.mp4,.dv,.mov,video/*"/>
 					<input class="submit_button" type="submit" value="CONVERT TO MP4" />
 		</form>
     </div>

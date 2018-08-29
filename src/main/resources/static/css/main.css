@@ -1,6 +1,6 @@
 body{
 	background-color:#111;
-	background:url('nebula-wallpaper.jpg');
+	background:url('space.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:initial;
@@ -11,6 +11,8 @@ body{
 h1{
 	margin-top:7.5%;
 	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 56px;
 }
 
 .container_form{
@@ -25,7 +27,7 @@ h1{
 
 .file_upload_field{
 	display:block;
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.7);
 	border-style:solid;
 	border-width:2px;
 	border-color:white;
@@ -39,7 +41,7 @@ h1{
 .submit_button{
 	margin-top:3em;
 	display:block;
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.7);
 	border-style:solid;
 	border-width:2px;
 	border-color:white;
@@ -48,6 +50,7 @@ h1{
 	padding:5px;
 	padding-top:15px;
 	padding-bottom:15px;
+	font-size: 18px;
 }
 
 .convert_text{
