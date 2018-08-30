@@ -21,8 +21,4 @@ To test with a default file, use the file "test-video.mov" (which is in the root
 * [Amazon Simple Storage Service (Amazon S3) API](https://aws.amazon.com/pt/sdk-for-java/) - A cloud computing web service offered by Amazon Web Services (AWS). Amazon S3 provides object storage through web services interfaces.
 * [Zencoder API](https://docs.brightcove.com/zencoder-api/v2/doc/index.html) - A cloud-based video encoding service launched in 2010. Zencoder offers video transcoding, ingest, and syndication via web service APIs.
 * [Spring Boot](http://spring.io/projects/spring-boot) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
-<<<<<<< HEAD
 * [Thymeleaf](https://www.thymeleaf.org) - A server-side Java template engine for both web and standalone environments.
-=======
-* [Thymeleaf](https://www.thymeleaf.org) - A server-side Java template engine for both web and standalone environments.
->>>>>>> 6230a50da2714c76d5b9a0e56e5fd607835b35a8
