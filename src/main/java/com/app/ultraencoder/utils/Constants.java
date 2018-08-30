@@ -12,4 +12,5 @@ public class Constants{
 	public static String mp4Format = "mp4";
 	public static String zencoderFinishedStatus = "finished";
 	public static int expireMinutes = 60;
+	public static int sleepTime = 500;
 }
